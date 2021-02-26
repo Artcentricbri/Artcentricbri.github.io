@@ -30,7 +30,7 @@ nav ul li a {
 .thebox {
 	height: 600px;
 	width: 400px;
-	background-image: url("images/LilBri.png");
+	background-image: url("LilBri.PNG");
 	background-size: cover;
 	margin: 1%;
 }
