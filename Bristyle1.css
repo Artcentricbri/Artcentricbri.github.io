@@ -84,8 +84,8 @@ main.about_me{
 main.about_me .wrapper .left img{
 	width: 200px;
 	height: auto;
-	background:yellow;
-	border-radius: 80%; border: 5px #CCC; 
+	background:white;
+	border-radius: 80%; border: 5px dotted #16FFFF; 
 }
 
 
