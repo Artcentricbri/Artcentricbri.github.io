@@ -76,9 +76,13 @@ main.about_me{
 }
 
 .main.about_me .wrapper{
-	background: red;
+	min-height: auto;
 }
 
+main.about_me .wrapper .left{
+	flex:none;
+	padding: 40px;
+}
 
 main.about_me .wrapper .left img{
 	width: 200px;
@@ -87,7 +91,10 @@ main.about_me .wrapper .left img{
 	border-radius: 50%; border: 5px dotted #16FFFF; 
 }
 
-
+main.about_me .wrapper .right p{
+	margin-top: 20px;
+	line-height: 1.6;
+}
 
 
 
