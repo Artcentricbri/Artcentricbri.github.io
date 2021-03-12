@@ -35,6 +35,7 @@ nav ul li a {
 .thebox {
 	height: 500px;
 	background-image: url("coverart.png");
+	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 1%;
 }
@@ -51,6 +52,7 @@ h1 {
 	width: 100%;
 	height: auto;
 	display: block;
+	margin: 1%;
 }
 
 
