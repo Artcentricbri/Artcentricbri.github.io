@@ -56,7 +56,14 @@ h1 {
 }
 
 
-
+.aboutpage {
+	width: 100%;
+	height: auto;
+	display: block;
+	background-position: center;
+	margin: 1%
+	
+}
 
 /*tablet*/
 
