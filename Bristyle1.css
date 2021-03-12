@@ -47,6 +47,16 @@ h1 {
 	padding-left: 68px;
 	
 }
+
+.col img {
+	width: 930px;
+	height: auto;
+	display: block;
+}
+
+
+
+
 /*tablet*/
 
 @media (max-width:768px){
