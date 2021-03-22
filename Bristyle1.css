@@ -121,7 +121,7 @@ main.about_me .wrapper .right p{
 /*illustrations and books pictures page*/
 
 .container{
-	position: none;
+	position: center;
 	column-count: 4;
 	padding: 0;
 }
