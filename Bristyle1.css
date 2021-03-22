@@ -112,24 +112,14 @@ main.about_me .wrapper .right p{
 
 /*books*/
 
-.container{
-max-width:1200px;
-margin:auto;
-background:#f2f2f2;
-overflow:auto;
-}
 
 .books{
-margin:5px;
-border:1px solid #ccc;
+margin:1px;
 float:left;
-width:390px;
+height:900px;
+width: auto;
 }
 
-.books img{
-width:100%;
-height:auto;
-}
 
 
 desc{
@@ -137,21 +127,6 @@ padding:15px;
 text-align:center;
 }
 
-
-footer
-All rights resered web master
-footer
-
-footer{
-padding:10px;
-font-size:17px;
-font-weight:bold;
-text-align:center;
-background:#594848;
-color:white;
-font-family:Arial;
-letter-spacing:1px;
-}
 
 /*illustrations*/
 
