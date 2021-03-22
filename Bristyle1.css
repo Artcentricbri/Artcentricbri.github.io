@@ -160,5 +160,74 @@ font-family:Arial;
 letter-spacing:1px;
 }
 
+/*illustrations*/
+
+.vault{
+position:relative;
+column-count:4;
+padding:20px;
+}
+
+.image{
+display:inline-block;
+margin-bottom:10px;
+overflow:hidden;
+}
+
+img{
+width:100px;
+transition: 0.25 ease-in-out;
+}
+
+.image:hover img{
+transform:scale(1.1);
+}
+
+@media screen and (max-width:1024px){
+h1{
+font-size: 20px;
+}
+}
+
+@media screen and (max-width:768px){
+.vault{
+column-count:3;
+}
+}
+
+@media screen and (max-width:425px){
+.vault{
+column-count:2;
+}
+h1 {
+font-size:12px;
+}
+}
+
+@media screen and (max-width:375px){
+.vault{
+column-count:1;
+}
+h1 {
+font-size:15px;
+}
+}
+
+
+
+
+h1{
+position:absolute;
+padding:5px;
+margin:5px;
+font-size:25px;
+background: black;
+color: white;
+border-radius: 5px;
+opacity:0;
+z-index:1;
+transition:0.25 ease-in-out;
+}
+
 
 
