@@ -10,8 +10,8 @@ width:150px;
 transition: 0.25 ease-in-out;
 }
 
-
 /* navigation bar*/
+
 
 nav {
 	float: right;
@@ -39,7 +39,6 @@ nav ul li a {
 	color:lightseagreen;
 }
 
-/*home and about page pictures*/
 
 h1 {
 	color:black;
@@ -56,6 +55,62 @@ h1 {
 	margin: 1%;
 }
 
+/*books gallery section*/
+
+.main
+{
+	box-sizing: border-box;
+	max-width: 1000px;
+}
+
+body{
+	padding: 20px;
+}
+
+h1{
+	font-size: 50px;
+	word-break: break-all;
+}
+
+.row{
+	margin: 8px -16px;
+}
+
+.row,
+.row > .column{
+	padding: 8px;
+}
+
+.column{
+	float: left;
+	width: 25%;
+}
+
+.row{
+	content: "";
+	display: table;
+	clear: both;
+	margin: 1%;
+}
+
+.content{
+	padding: 10px;
+}
+
+@media screen and (max-width:900px){
+	.column{
+		width: 50%;
+	}
+}
+
+@Media screen and (max-width:600px){
+	.column{
+		width: 100%;
+	}
+}
+
+
+/*about page section*/
 
 .aboutpage {
 	width: 100%;
@@ -88,7 +143,7 @@ h1 {
 	}
 }
 
-/* About Page  not using code
+/* About Page */
 
 main.about_me{
 	
@@ -113,10 +168,80 @@ main.about_me .wrapper .left img{
 main.about_me .wrapper .right p{
 	margin-top: 20px;
 	line-height: 1.6;
-}*/
+}
 
 
 
 
-/*illustrations and books pictures page*/
+
+
+
+
+/*illustrations and books*/
+
+body{
+	background: #ffffff
+}
+
+.container{
+	position: center;
+	column-count: 4;
+	padding: 0;
+}
+
+.image{
+	display: inline-block;
+	margin-bottom: 1px;
+	overflow: hidden;
+}
+
+img{
+	width:100px;
+	transition: 0.25s ease-in-out;
+}
+
+h1{
+	position: absolute;
+	padding: 5px;
+	margin: 5px;
+	font-size: 25px;
+	background: #5c5c5c;
+	border-radius: 5px;
+	opacity: 0;
+	z-index: 1;
+	transition: 0.25 ease-in-out;
+}
+
+@media screen and (max-width:1024px){
+	h1{
+		font-size: 20px;
+	}
+}
+
+
+@media screen and (max-width:768px){
+	.container{
+		column-count: 3;
+	}
+}
+
+
+@media screen and (max-width:425px){
+	.container{
+		column-count: 2;
+	}
+	h1{
+		font-size: 12px;
+	}
+}
+
+
+@media screen and (max-width:375px){
+	.container{
+		column-count: 1;
+	}
+	h1{
+		font-size: 15px;
+	}
+}
 
