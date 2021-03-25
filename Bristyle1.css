@@ -121,8 +121,25 @@ h1{
 	
 }
 
+.imagecontainer{
+	margin-left: 36%;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	color: white;
+}
 
+.caption {
+	font-size: 15px;
+	color: white;
+}
 
+.center {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 /*tablet*/
 
 @media (max-width:768px){
