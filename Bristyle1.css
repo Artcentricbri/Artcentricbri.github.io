@@ -185,19 +185,12 @@ main.about_me .wrapper .right p{
 /*illlustrations*/
 
 .grid{
-	display: flex;
+	display: none;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
 	margin: 1%;
 }
-
-.grid .heading{
-	width: 50%;
-	padding-bottom: 50px;
-}
-
 
 
 .grid .gallerybox{
@@ -209,7 +202,7 @@ main.about_me .wrapper .right p{
 .grid .gallerybox .dream{
 	display: flex;
 	flex-direction: column;
-	width: 32.5%;
+	width: 30%;
 	
 }
 
@@ -232,10 +225,6 @@ main.about_me .wrapper .right p{
 	text-decoration: none;
 	font-weight: bolder;
 	letter-spacing: 3px;
-}
-
-.grid .heading h3{
-	font-size: 1em;
 }
 
 
