@@ -96,9 +96,7 @@ h1{
 	margin: 1%;
 }
 
-.content{
-	padding: 10px;
-}
+
 
 @media screen and (max-width:900px){
 	.column{
@@ -190,25 +188,12 @@ main.about_me .wrapper .right p{
 	padding-bottom: 50px;
 }
 
-.grid .heading h3{
-	font-size: 3em;
-	font-weight:bolder;
-	padding-bottom: 10px;
-	border-bottom: 3px solid;
-	color:lightseagreen;
-}
 
-
-.grid .heading h3 span{
-	
-	font-weight:100;
-	color:lightseagreen;
-}
 
 .grid .gallerybox{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-between
 }
 
 .grid .gallerybox .dream{
@@ -239,28 +224,11 @@ main.about_me .wrapper .right p{
 	letter-spacing: 3px;
 }
 
-@media only screen and (max-width:769px){
-	.grid .gallerybox{
-	flex-direction: column;
-	}
-	
-	.grid .gallerybox .dream{
-	width: 100%;
-	
-}
-	
-	
-@media only screen and (max-width:643px){
-	.grid .heading{
-	width: 100%;
-}
-	}
-
 .grid .heading h3{
 	font-size: 1em;
 }
 
-}
+
 
 
 
