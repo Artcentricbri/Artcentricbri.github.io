@@ -184,48 +184,6 @@ main.about_me .wrapper .right p{
 
 /*illlustrations*/
 
-.grid{
-	display: none;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 1%;
-}
-
-
-.grid .gallerybox{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between
-}
-
-.grid .gallerybox .dream{
-	display: flex;
-	flex-direction: column;
-	width: 30%;
-	
-}
-
-.grid .gallerybox .dream img{
-	width: 100%;
-	padding-bottom: 15px;
-	border-radius: 5px;	
-}
-
-.grid .btn{
-	margin: 40px 0 70px 0;
-	background: #222;
-	padding: 15px 40px;
-	border-radius: 5px;
-}
-
-.grid .btn a{
-	color:#fff;
-	font-size: 1.2em;
-	text-decoration: none;
-	font-weight: bolder;
-	letter-spacing: 3px;
-}
 
 
 
@@ -255,6 +213,7 @@ body{
 img{
 	width:100px;
 	transition: 0.25s ease-in-out;
+	margin: 1%;
 }
 
 h1{
