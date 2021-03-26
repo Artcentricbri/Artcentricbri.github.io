@@ -14,8 +14,9 @@ transition: 0.25 ease-in-out;
 
 
 nav {
-	float: right;
-	margin: 1px;
+	float: center;
+	margin-right: 100px;
+	margin-left:  100px;
 	
 }
 
