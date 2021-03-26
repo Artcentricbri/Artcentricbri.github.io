@@ -223,15 +223,15 @@ main.about_me .wrapper .right p{
 
 .grid .btn{
 	margin: 40px 0 70px 0;
-	background-color: black;
+	background: #222;
 	padding: 15px 40px;
 	border-radius: 5px;
 }
 
 .grid .btn a{
-	color:white;
+	color:#fff;
 	font-size: 1.2em;
-	text-decoration: nine;
+	text-decoration: none;
 	font-weight: bolder;
 	letter-spacing: 3px;
 }
