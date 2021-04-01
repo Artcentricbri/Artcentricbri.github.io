@@ -99,10 +99,6 @@ body{
 	padding: 20px;
 }
 
-h1{
-	font-size: 50px;
-	word-break: break-all;
-}
 
 .row{
 	margin: 8px -16px;
@@ -122,7 +118,7 @@ h1{
 	content: "";
 	display: table;
 	clear: both;
-	margin: 1%;
+	margin: 2%;
 }
 
 
