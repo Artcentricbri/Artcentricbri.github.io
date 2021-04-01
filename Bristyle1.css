@@ -31,9 +31,16 @@ body {
 	
 }
 
+
+.movies{
+	margin: 1%;
+}
+
+
+
 body {
 	background-image: url("blossom.gif");
-	background-repeat: no-repeat,repeat;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
