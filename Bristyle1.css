@@ -80,6 +80,9 @@ h3{
 }
 
 footer{
+	text-align: center;
+	padding: 3px;
+	background-color: lightseagreen;
 	color: white;
 }
 
