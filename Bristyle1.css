@@ -199,14 +199,6 @@ main.about_me .wrapper .right p{
 	line-height: 1.6;
 }
 
-/*illlustrations*/
-
-
-
-
-
-
-
 
 
 /* books*/
@@ -214,8 +206,7 @@ main.about_me .wrapper .right p{
 
 .container{
 	position: center;
-	column-count: 1;
-	padding: 0;
+	column-count: 5;
 }
 
 .image{
