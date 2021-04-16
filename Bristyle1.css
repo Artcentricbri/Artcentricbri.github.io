@@ -123,12 +123,6 @@ body{
 	margin: 1%;
 }
 
-footer{
-	text-align: center;
-	color: white;
-	display: block;
-	text-decoration:underline;
-}
 
 
 @media screen and (max-width:900px){
@@ -231,7 +225,7 @@ main.about_me .wrapper .right p{
 }
 
 img{
-	width:100px;
+	width:50px;
 	transition: 0.25s ease-in-out;
 	margin: 1%;
 }
