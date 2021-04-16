@@ -93,22 +93,22 @@ h3{
 .main
 {
 	box-sizing: border-box;
-	max-width: 100px;
+	max-width: 50px;
 	margin:1%;
 }
 
 body{
-	padding: 20px;
+	padding: 0px;
 }
 
 
 .row{
-	margin: 4px -8px;
+	margin: 4px -6px;
 }
 
 .row,
 .row > .column{
-	padding: 4px;
+	padding: 2px;
 }
 
 .column{
