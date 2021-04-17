@@ -39,13 +39,11 @@ body {
 h4{
 	color: white;
 	background-color: darkturquoise;
-	border-color: black;
+	border-color: none;
 	text-align: center;
 }
 
-var{
-	color: white;
-}
+
 
 body {
 	background-image: url("blossom.gif");
