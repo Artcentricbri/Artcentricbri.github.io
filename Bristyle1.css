@@ -39,11 +39,13 @@ body {
 h4{
 	color: white;
 	background-color: darkturquoise;
-	border: dotted;
+	border-color: black;
 	text-align: center;
 }
 
-
+.var messages{
+	color: white;
+}
 
 body {
 	background-image: url("blossom.gif");
