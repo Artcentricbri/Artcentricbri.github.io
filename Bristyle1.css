@@ -34,7 +34,7 @@ transition: 0.25 ease-in-out;
 
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
-  background-color: lightseagreen;
+  background-color: #000000;
 }
 
 .fiverr {
