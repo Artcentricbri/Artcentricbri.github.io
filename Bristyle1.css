@@ -275,20 +275,8 @@ h1{
 }
 
 
-/*about page section*/
 
-.aboutpage {
-	width: 100%;
-	height: auto;
-	display: block;
-	background-position: center;
-	margin: 1%
-	
-}
 
-displayMessage{
-	color: white;
-}
 
 /*tablet*/
 
@@ -324,9 +312,15 @@ displayMessage{
 	
 }
 
-displayMessage{
-	color: white;
+.aboutpage {
+	width: 100%;
+	height: auto;
+	display: block;
+	background-position: center;
+	margin: 1%
+	
 }
+
 
 
 main.about_me{
