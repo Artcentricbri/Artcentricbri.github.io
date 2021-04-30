@@ -350,6 +350,11 @@ main.about_me .wrapper .right p{
 
 #demo{
 	color: white;
+	font-size: 20px;
+	background-color: darkturquoise;
+	border-color: none;
+	text-align: center;
+	
 }
 
 
